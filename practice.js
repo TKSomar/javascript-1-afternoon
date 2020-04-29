@@ -79,16 +79,17 @@ let devMountainClassPet = dog.name
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 function nameCheck(name) {
-  if (name = 'Steven') {
+  if (name == 'Steven') {
     return 'What is up Steven?'
   }
-  else if (name = 'Bryan') {
+  else if (name == 'Bryan') {
     return 'Hey Bryan!'
   }
   else {
     return `Cool name, ${name}`
   }
 }
+
 
 
 //////////////////PROBLEM 11////////////////////
